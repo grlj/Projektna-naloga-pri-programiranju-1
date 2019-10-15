@@ -11,8 +11,8 @@ Za vsakega igralca bom zajel:
 * hypixel level, hypixel rang, datum prvega vpisa na strežnik,
 
 Delovne hipoteze:
-* Ali obstaja povezava med K/D oz. W/L glede na igro?
+* Ali je uspešnost pri kateri od treh iger povezana z uspešnostjo pri druigh?
 * Ali so kateri igralci na dveh ali treh lestvicah najboljših?
 * Ali imajo igralci na lestvicah relativno stare račune (5l. +)?
 * Ali so igralci na lestvicah večinsko katerega ranga?
-* Ali igralci igrajo večisnko katero izmed različic vsake igre? Imajo tisti z višjim K/D
+* Ali igralci igrajo večisnko katero izmed različic vsake igre? 
