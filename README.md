@@ -1,4 +1,4 @@
-Najboljši igralci skywars in bedwars na hypixel.net
+Najboljši igralci bedwars na hypixel.net
 =======================
 
 Analiziral bom prvih 1000 bedwars glede na število zmag
