@@ -4,7 +4,7 @@ import time
 import os
 import requests
 
-path = os.path.abspath("bedwars.html")
+path = os.path.abspath("bedwars_overall.html")
 
 with open(path, 'rb') as bedwars:
     soup = BeautifulSoup(bedwars)
@@ -24,7 +24,7 @@ for row in rows:
         cols2.append(element.text.strip())
     data.append([element for element in cols2 if element])
 
-for pt in data[239:240]:
+for pt in data:
     response = requests.get(pt[1])
     playerdata = response.content
     with open(f'players/player-{pt[0]}.html', 'wb') as p:
