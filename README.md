@@ -15,6 +15,9 @@ Delovne hipoteze:
 * Ali igralci igrajo večisnko katero izmed različic vsake igre? 
 
 general.csv vsebuje splošno bedwars statistiko, ki ni pretirano relevantna
+
 overall.csv vsebuje seštevke vseh spodaj naštetih datotek in imena igralcev
+
 solo.csv vsebuje rezultate najboljših 1000 v overall kategorij glede na solo igralski načinih
-dou.csv, triple.csv, quad.csv podobno
+
+duo.csv, triple.csv, quad.csv podobno
