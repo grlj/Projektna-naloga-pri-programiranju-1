@@ -22,7 +22,7 @@ for row in rows:
         cols[i+2] = int(str(cols[i+2]).replace(',', ''))
     data.append(cols)
 
-with open('overall.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/overall.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(data)
 
@@ -49,23 +49,23 @@ for i in range(1, 1001):
         drek = stats_rows[n].find_all('td')
         stats.append([i]+[int(str(drek[k].text).replace(',','')) if k in [0,1,3,4,6,7,9] else drek[k].text for k in range(len(drek))])
 
-with open('general.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/general.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(collected_general_stats)
 
-with open('solo.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/solo.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(collected_solo_stats)
 
-with open('duo.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/duo.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(collected_duo_stats)
 
-with open('triple.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/triple.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(collected_triple_stats)
 
-with open('quad.csv', 'w', newline='', encoding="utf-8") as csvfile:
+with open('csv/quad.csv', 'w', newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(collected_quad_stats)
 
