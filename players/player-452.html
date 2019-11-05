@@ -1,0 +1,636 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-16820736-2"></script>
+<script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-16820736-2');
+            </script>
+<title>
+                19st's Stats | Plancke            </title>
+<link rel="shortcut icon" href="/favicon.ico">
+
+<link href="/assets/plugins/tablesaw/dist/tablesaw.css" rel="stylesheet" type="text/css" />
+<link href="/assets/plugins/bootstrap-sweetalert/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/plugins/nvd3/build/nv.d3.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/core.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/icons.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/components.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/pages.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/menu.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/responsive.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/_main.css" rel="stylesheet" type="text/css">
+<script src="/assets/js/modernizr.min.js"></script>
+<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <![endif]-->
+<meta charset="utf-8" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Plancke" /><meta property="og:title" content="Plancke" /><meta property="og:locale" content="en_US" /><meta property="og:description" content="[MVP+] 19st [DAWN]" /><meta property="keywords" content="Plancke,Hypixel,Stats,Statistics" /><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="author" content="Plancke" /><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@Plancke" /><meta name="twitter:creator" content="@Plancke" /><meta name="twitter:title" content="Plancke" /><meta name="twitter:description" content="[MVP+] 19st [DAWN]" /><meta name="twitter:image" content="https://plancke.io/assets/images/avatar.png" /><meta name="description" content="[MVP+] 19st [DAWN]" /><meta name="keywords" content="Plancke,Hypixel,Stats,Statistics" /> </head>
+<body class="fixed-left">
+
+<div id="wrapper">
+
+<div class="topbar">
+
+<div class="topbar-left">
+<div class="text-center">
+<a href="/" class="logo"><img src="/favicon.ico" height="18px" /> <span>Plancke</span> </a>
+</div>
+</div>
+
+<div class="navbar navbar-default" role="navigation"><div class="container"><div class=""><div class="pull-left"><button class="button-menu-mobile open-left waves-effect"><i class="md md-menu"></i></button><span class="clearfix"></span></div><ul class="nav navbar-nav hidden-xs"></ul></div></div></div> </div>
+
+
+<div class="left side-menu">
+<div class="sidebar-inner slimscrollleft">
+<div id="sidebar-menu">
+<ul><li class="menu-title">Hypixel</li><li class="has_sub"><a href="javascript:;" class="waves-effect waves-primary"><i class="md md-person"></i><span> Player </span><span class="menu-arrow"></span></a><ul class="list-unstyled"><li><a href="/hypixel/player/stats/">Stats</a></li><li><a href="/hypixel/player/calc/">Calculator</a></li><li><a href="/hypixel/player/friends/">Friends</a></li><li><a href="/hypixel/player/weapons/">Weapons</a></li><li><a href="/hypixel/player/achievements/">Achievements</a></li></ul></li><li><a href="/hypixel/guild/" class="waves-effect waves-primary"><i class="md md-group"></i><span> Guild Stats </span></a></li><li><a href="/hypixel/leaderboards/" class="waves-effect waves-primary"><i class="md md-view-list"></i><span> Leaderboards </span></a></li><li><a href="/hypixel/generators/" class="waves-effect waves-primary"><i class="md md-camera-alt"></i><span> Generators </span></a></li><li><a href="/hypixel/boosters/" class="waves-effect waves-primary"><i class="md md-timer"></i><span> Boosters </span></a></li><li><a href="/hypixel/watchdog/" class="waves-effect waves-primary"><i class="md md-remove-circle"></i><span> Watchdog Stats </span></a></li><li class="menu-title">Tools</li><li><a href="/tools/color/" class="waves-effect waves-primary"><i class="fa fa-paint-brush"></i><span> MC Color Tester </span></a></li></ul> <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+</div>
+
+
+
+
+<div class="content-page">
+
+<div class="content">
+<div class="container">
+
+<div class="row">
+<div class="col-sm-12">
+<div class="page-title-box">
+<ol class="breadcrumb pull-right">
+<li><a href="/hypixel/player/stats/19st">Stats</a></li>
+<li><a href="/hypixel/player/calc/19st">Calculator</a></li>
+<li><a href="/hypixel/player/weapons/19st">Weapons</a></li>
+<li><a href="/hypixel/generators/19st">Generators</a></li>
+<li><a href="/hypixel/achievements/19st">Achievements</a></li>
+</ol>
+<h4 class="page-title">Hypixel Player Stats</h4>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 b-0 p-0">
+<div class="col-lg-12">
+<div class="card-box m-b-10">
+<h3 class="m-t-0 header-title">Player Information</h3>
+<span style="font-family: 'Minecraftia', serif;"><span style='text-shadow: 1px 1px #eee; color:#3CE6E6'>[MVP</span><span style='text-shadow: 1px 1px #aaa; color:#E0E0E0'>+</span><span style='text-shadow: 1px 1px #eee; color:#3CE6E6'>] 19st</span><span style='text-shadow: 1px 1px #eee; color:#FFFF55'> [DAWN]</span></span><hr><a data-toggle="collapse" href="#collapse-name-history" aria-expanded="false" class="collapsed text-inverse"><b>Name History <i style="font-size: 10px !important;" class="glyphicon glyphicon-plus"></i></b></a><div id="collapse-name-history" class="collapse" aria-expanded="false"><div class="panel-body">DarkDestroy<br />DarkDestroyer99<br />framies<br />Inhalement<br />ilylcviees<br />george887<br /></div></div><br /><a data-toggle="collapse" href="#collapse-rank-history" aria-expanded="false" class="collapsed text-inverse"><b>Rank History <i style="font-size: 10px !important;" class="glyphicon glyphicon-plus"></i></b></a><div id="collapse-rank-history" class="collapse" aria-expanded="false"><div class="panel-body">VIP - 2018-01-28 14:53<br />VIP+ - 2018-12-08 01:42<br />MVP+ - 2019-06-14 19:50</div></div><br /><br /><b>Multiplier:</b> Level 102 (x5.5)<br /><b>Level:</b> 102.42<br /><b>Karma:</b> 1,534,345<br /><b>Achievement Points:</b> 4,005<br /><b>Quests Completed:</b> 600<br /><br /><b>Firstlogin: </b>2015-08-16 12:12 EDT<br /><b>Lastlogin: </b>2019-11-04 17:22 EST<br /><br /><b>Friends:</b> <a href="/hypixel/player/friends/19st">34</a><br /><br /><a href="https://sky.lea.moe/stats/19st"><b>SkyBlock Stats</b></a><br /> </div>
+</div>
+<div class="col-lg-12">
+<div class="card-box m-b-10">
+<h4 class="m-t-0 header-title">Guild</h4>
+<b>Name: </b><a href="/hypixel/guild/player/19st">The Dawns Awakening</a>
+<br />
+<b>Members: </b>123 </div>
+</div>
+<div class="col-lg-12">
+<div class="card-box m-b-10">
+<h4 class="m-t-0 header-title">Status</h4>
+<b>Offline</b>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="card-box m-b-10">
+<h4 class="m-t-0 header-title">Social Media</h4>
+<a id="social_DISCORD" href="javascript:void(0)"><img width="48px" src="/assets/images/social/128/discord.png" /></a> </div>
+</div>
+</div>
+<div class="col-lg-9">
+<div class="panel-group stat-accordion">
+<div class="panel panel-default stat_panel" id="stat_panel_Arcade">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-1" aria-expanded="false" class="collapsed">
+Arcade </a>
+</h4>
+</div>
+<div id="collapse-1-1" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 384,649</li><br /><li><b>Kills Blocking Dead:</b> 882</li><li><b>Kills Dragonwars:</b> 30</li><li><b>Kills Bounty Hunter:</b> 91</li><li><b>Kills Throw Out:</b> 15</li><li><b>Poop Collected:</b> 12</li><li><b>Headshots Blocking Dead:</b> 404</li><li><b>Wins Blocking Dead:</b> 2</li><li><b>Wins Dragonwars:</b> 1</li><li><b>Wins Enderspleef:</b> 6</li><li><b>Wins Farm Hunt:</b> 1</li><li><b>Wins Bounty Hunter:</b> 1</li><li><b>Wins Party Games 1:</b> 9</li><li><b>Wins Party Games 2:</b> 0</li><li><b>Wins Party Games 3:</b> 2</li><li><b>Wins Throw Out:</b> 1</li><li><b>Wins Hole in the Wall:</b> 0</li><li><b>HITW Highest Score Qualifications:</b> 61</li><li><b>HITW Highest Score Finals:</b> 37</li><li><b>Wins Hypixel Says:</b> 7</li><li><b>Wins Mini Walls:</b> 6</li><br /><li><b>GW Kills:</b> 110</li><li><b>GW Empire Kills:</b> 18</li><li><b>GW Rebel Kills:</b> 92</li><li><b>GW Deaths:</b> 130</li><li><b>GW Shots Fired:</b> 2,512</li><br /><li><h4>Hide and Seek</h4></li><li><b>Seeker Wins:</b> 0</li><li><b>Hider Wins:</b> 0</li><li><b>Party Pooper Seeker Wins:</b> 0</li><li><b>Party Pooper Hider Wins:</b> 0</li><br /><li><h4>Zombies</h4></li><li><b>Accuracy:</b> 69%</li><li><b>Head Shot Accuracy:</b> 45%</li><li><h5>Map Stats:</h5></li><li><table class="table"><thead><tr><td>Map</td><td>Downs</td><td>Revives</td><td>Doors Opened</td><td>Windows Repaired</td><td>Zombies Killed</td><td>Deaths</td><td>Best Round</td></tr></thead><tbody><tr><td>Alien Arcadium</td><td>24</td><td>28</td><td>4</td><td>33</td><td>1,186</td><td>5</td><td>39</td></tr><tr><td>Bad Blood</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Dead End</td><td>16</td><td>12</td><td>2</td><td>48</td><td>678</td><td>8</td><td>30</td></tr></tbody></table></li><li><h5>Zombie Stats:</h5></li><li><table class="table"><thead><tr><td>Type</td><td>Kills</td></tr></thead><tbody><tr><td>Basic</td><td>341</td></tr><tr><td>Blaze</td><td>6</td></tr><tr><td>Blob</td><td>139</td></tr><tr><td>Clown</td><td>29</td></tr><tr><td>Empowered</td><td>29</td></tr><tr><td>Ender</td><td>31</td></tr><tr><td>Ender Mite</td><td>28</td></tr><tr><td>Fire</td><td>58</td></tr><tr><td>Guardian</td><td>37</td></tr><tr><td>Magma</td><td>46</td></tr><tr><td>Magma Cube</td><td>122</td></tr><tr><td>Pig Zombie</td><td>118</td></tr><tr><td>Rainbow</td><td>93</td></tr><tr><td>Sentinel</td><td>111</td></tr><tr><td>Skelefish</td><td>6</td></tr><tr><td>Skeleton</td><td>24</td></tr><tr><td>Space Blaster</td><td>54</td></tr><tr><td>Space Grunt</td><td>81</td></tr><tr><td>TNT Baby</td><td>19</td></tr><tr><td>Wolf</td><td>68</td></tr><tr><td>Worm</td><td>140</td></tr><tr><td>Worm Small</td><td>95</td></tr></tbody></table></li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_BedWars">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-2" aria-expanded="false" class="collapsed">
+Bed Wars </a>
+</h4>
+</div>
+<div id="collapse-1-2" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled">
+<li><b>Coins:</b> 113,141</li><li><b>Current Winstreak:</b> 0</li><li><b>Current Level:</b> 232</li><li><br /></li><li><b>Diamonds Collected:</b> 26,320</li><li><b>Emeralds Collected:</b> 7,860</li><li><b>Gold Collected:</b> 136,070</li><li><b>Iron Collected:</b> 622,543</li> </ul>
+<table class="table">
+<thead>
+<tr>
+<th scope="col" style="border-right: 1px solid #f3f3f3"></th>
+<th scope="col" colspan="3" style="border-right: 1px solid #f3f3f3">Normal</th>
+<th scope="col" colspan="3">Final</th>
+<th scope="col" colspan="3"></th>
+<th scope="col"></th>
+</tr>
+<tr>
+<th scope="col" style="border-right: 1px solid #f3f3f3">Type</th>
+<th scope="col">Kills</th>
+<th scope="col">Deaths</th>
+<th scope="col" style="border-right: 1px solid #f3f3f3">K/D</th>
+<th scope="col">Kills</th>
+<th scope="col">Deaths</th>
+<th scope="col" style="border-right: 1px solid #f3f3f3">K/D</th>
+<th scope="col">Wins</th>
+<th scope="col">Losses</th>
+<th scope="col" style="border-right: 1px solid #f3f3f3">W/L</th>
+<th scope="col">Beds Broken</th>
+</tr>
+</thead>
+<tr><th scope="row" style="border-right: 1px solid #f3f3f3">Solo</th><td>3,862</td><td>8,841</td><td style="border-right: 1px solid #f3f3f3">0.44</td><td>4,130</td><td>1,526</td><td style="border-right: 1px solid #f3f3f3">2.71</td><td>780</td><td>2,875</td><td style="border-right: 1px solid #f3f3f3">0.27</td><td>5,092</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Doubles</th><td>2,977</td><td>4,721</td><td style="border-right: 1px solid #f3f3f3">0.63</td><td>2,236</td><td>794</td><td style="border-right: 1px solid #f3f3f3">2.82</td><td>329</td><td>885</td><td style="border-right: 1px solid #f3f3f3">0.37</td><td>1,425</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">3v3v3v3</th><td>612</td><td>1,090</td><td style="border-right: 1px solid #f3f3f3">0.56</td><td>367</td><td>167</td><td style="border-right: 1px solid #f3f3f3">2.20</td><td>108</td><td>171</td><td style="border-right: 1px solid #f3f3f3">0.63</td><td>204</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">4v4v4v4</th><td>793</td><td>1,114</td><td style="border-right: 1px solid #f3f3f3">0.71</td><td>353</td><td>151</td><td style="border-right: 1px solid #f3f3f3">2.34</td><td>113</td><td>175</td><td style="border-right: 1px solid #f3f3f3">0.65</td><td>157</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Rush Solo</th><td>1</td><td>2</td><td style="border-right: 1px solid #f3f3f3">0.5</td><td>0</td><td>2</td><td style="border-right: 1px solid #f3f3f3">0</td><td>0</td><td>2</td><td style="border-right: 1px solid #f3f3f3">0</td><td>0</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Rush Doubles</th><td>2</td><td>7</td><td style="border-right: 1px solid #f3f3f3">0.29</td><td>2</td><td>0</td><td style="border-right: 1px solid #f3f3f3">2</td><td>1</td><td>0</td><td style="border-right: 1px solid #f3f3f3">1</td><td>2</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Rush 4v4v4v4</th><td>3</td><td>22</td><td style="border-right: 1px solid #f3f3f3">0.14</td><td>1</td><td>5</td><td style="border-right: 1px solid #f3f3f3">0.2</td><td>1</td><td>4</td><td style="border-right: 1px solid #f3f3f3">0.25</td><td>2</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Ultimate Solo</th><td>2</td><td>3</td><td style="border-right: 1px solid #f3f3f3">0.67</td><td>1</td><td>2</td><td style="border-right: 1px solid #f3f3f3">0.5</td><td>0</td><td>2</td><td style="border-right: 1px solid #f3f3f3">0</td><td>2</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Ultimate Doubles</th><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Ultimate 4v4v4v4</th><td>10</td><td>43</td><td style="border-right: 1px solid #f3f3f3">0.23</td><td>29</td><td>4</td><td style="border-right: 1px solid #f3f3f3">7.25</td><td>10</td><td>4</td><td style="border-right: 1px solid #f3f3f3">2.5</td><td>10</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Lucky Doubles</th><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Lucky 4v4v4v4</th><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Castle</th><td>5</td><td>17</td><td style="border-right: 1px solid #f3f3f3">0.29</td><td>0</td><td>4</td><td style="border-right: 1px solid #f3f3f3">0</td><td>0</td><td>4</td><td style="border-right: 1px solid #f3f3f3">0</td><td>0</td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Capture</th><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td><td>0</td><td style="border-right: 1px solid #f3f3f3">-</td><td>0</td></tr><tr><td colspan="11"></td></tr><tr><th scope="row" style="border-right: 1px solid #f3f3f3">Overall</th><td>8,244</td><td>15,766</td><td style="border-right: 1px solid #f3f3f3">0.52</td><td>7,086</td><td>2,638</td><td style="border-right: 1px solid #f3f3f3">2.69</td><td>1,330</td><td>4,106</td><td style="border-right: 1px solid #f3f3f3">0.32</td><td>6,878</td></tr> </table>
+</div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_BuildBattle">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-3" aria-expanded="false" class="collapsed">
+Build Battle </a>
+</h4>
+</div>
+<div id="collapse-1-3" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Score:</b> 95</li></ul><table class="table"><thead><tr><th>Mode</th><th>Wins</th></tr></thead><tr><td>Solo</td><td>1</td></tr><tr><td>Team</td><td>0</td></tr><tr><td>Guess the Build</td><td>0</td></tr><tr><td>Pro Mode</td><td>0</td></tr></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_BSG">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-4" aria-expanded="false" class="collapsed">
+Blitz Survival Games </a>
+</h4>
+</div>
+<div id="collapse-1-4" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 27,575</li><br /><li><b>Kills:</b> 47</li><li><b>Deaths:</b> 86</li><li><b>Wins Solo:</b> 2</li><li><b>Wins Team:</b> 0</li><li><b>Kill/Death Ratio:</b> 0.55</li><li><b>Kills/Game:</b> 0.53</li></ul><table class="table"><thead><tr><th>Kit</th><th>Level</th><th>Prestige</th><th>Wins</th><th>Losses</th><th>W/L Ratio</th><th>Kills</th><th>Time Played</th></tr></thead><tr><td>Archer</td><td>IV</td><td>-</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0:05:04</td></tr><tr><td>Knight</td><td>VI</td><td>-</td><td>0</td><td>8</td><td>0</td><td>3</td><td>0:18:14</td></tr></table> </div>
+</div>
+</div>
+ <div class="panel panel-default stat_panel" id="stat_panel_CaC">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-5" aria-expanded="false" class="collapsed">
+Cops and Crims </a>
+</h4>
+</div>
+<div id="collapse-1-5" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 23,568</li><br /><li><b>Total Kills:</b> 28</li><li><b>Headshots:</b> 30</li><li><b>Deaths:</b> 42</li><li><b>Game Wins:</b> 4</li><li><b>Round Wins:</b> 26</li><li><b>Shots Fired:</b> 853</li><li><b>Cop Kills:</b> 8</li><li><b>Criminal Kills:</b> 7</li><li><b>Deathmatch Kills:</b> 13</li><li><b>Bombs Planted:</b> 0</li><li><b>Bombs Defused:</b> 1</li></ul>
+</div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_CrazyWalls">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-6" aria-expanded="false" class="collapsed">
+Crazy Walls </a>
+</h4>
+</div>
+<div id="collapse-1-6" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 11,230</li><br /><li><b>Kills:</b> 26</li><li><b>Deaths:</b> 61</li><li><b>Wins:</b> 0</li><li><b>Kill/Death Ratio:</b> 0.43</li></ul><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>Wins</th><th>K/D</th></tr></thead><tr><td>Solo Normal</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>Solo Lucky</td><td>6</td><td>25</td><td>0</td><td>0.24</td></tr><tr><td>Team Normal</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>Team Lucky</td><td>20</td><td>34</td><td>0</td><td>0.59</td></tr></table>
+</div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_Duels">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-7" aria-expanded="false" class="collapsed">
+Duels </a>
+</h4>
+</div>
+<div id="collapse-1-7" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 51,528</li><br /><li><b>Kills:</b> 1,925</li><li><b>Deaths:</b> 1,530</li><li><b>Kill/Death Ratio:</b> 1.26</li><br /><li><b>Wins:</b> 2,336</li><li><b>Losses:</b> 1,429</li><li><b>Win/Loss Ratio:</b> 1.63</li><br /><li><b>Arrows Shot:</b> 2,977</li><li><b>Arrows Hit:</b> 1,087</li><li><b>Arrow Hit/Miss Ratio:</b> 0.37</li><br /><li><b>Melee Swings:</b> 149,587</li><li><b>Melee Hits:</b> 47,066</li><li><b>Melee Hit/Miss Ratio:</b> 0.31</li></ul><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>K/D</th><th>Wins</th><th>Losses</th><th>W/L</th><th>Melee H/M</th><th>Bow H/M</th></tr></thead><tr><td>SW Tournament</td><td>12</td><td>7</td><td>1.71</td><td>1</td><td>7</td><td>0.14</td><td>0.28</td><td>0</td></tr><tr><td>Sumo Tournament</td><td>3</td><td>4</td><td>0.75</td><td>0</td><td>4</td><td>0</td><td>0.29</td><td>0</td></tr><tr><td>UHC 1v1</td><td>23</td><td>71</td><td>0.32</td><td>24</td><td>70</td><td>0.34</td><td>0.29</td><td>0.35</td></tr><tr><td>UHC 2v2</td><td>17</td><td>21</td><td>0.81</td><td>22</td><td>17</td><td>1.29</td><td>0.27</td><td>0.37</td></tr><tr><td>UHC 4v4</td><td>1</td><td>2</td><td>0.5</td><td>1</td><td>2</td><td>0.5</td><td>0.21</td><td>0</td></tr><tr><td>OP 1v1</td><td>13</td><td>14</td><td>0.93</td><td>13</td><td>14</td><td>0.93</td><td>0.27</td><td>0.67</td></tr><tr><td>OP 2v2</td><td>2</td><td>0</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0.24</td><td>0</td></tr><tr><td>SkyWars 1v1</td><td>1,355</td><td>998</td><td>1.36</td><td>1,706</td><td>998</td><td>1.71</td><td>0.28</td><td>0.36</td></tr><tr><td>SkyWars 2v2</td><td>460</td><td>354</td><td>1.30</td><td>498</td><td>238</td><td>2.09</td><td>0.28</td><td>0.43</td></tr><tr><td>Sumo 1v1</td><td>12</td><td>6</td><td>2</td><td>12</td><td>6</td><td>2</td><td>0.31</td><td>0</td></tr><tr><td>Classic 1v1</td><td>24</td><td>42</td><td>0.57</td><td>25</td><td>40</td><td>0.63</td><td>0.32</td><td>0.63</td></tr><tr><td>NoDebuff 1v1</td><td>2</td><td>7</td><td>0.29</td><td>3</td><td>7</td><td>0.43</td><td>0.28</td><td>0</td></tr><tr><td>Combo 1v1</td><td>1</td><td>4</td><td>0.25</td><td>1</td><td>4</td><td>0.25</td><td>0.46</td><td>0</td></tr><tr><td>Bridge 1v1</td><td>2</td><td>3</td><td>0.67</td><td>1</td><td>6</td><td>0.17</td><td>0.26</td><td>0.5</td></tr><tr><td>Bridge 2v2</td><td>29</td><td>80</td><td>0.36</td><td>27</td><td>15</td><td>1.8</td><td>0.26</td><td>0</td></tr><tr><td>Bridge Teams</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_MW">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-8" aria-expanded="false" class="collapsed">
+Mega Walls </a>
+</h4>
+</div>
+<div id="collapse-1-8" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<span id="walls3-id"></span><ul class="list-unstyled"><li><b>Coins:</b> 14,051</li><br /><li><b>Kills:</b> 60</li><li><b>Assists:</b> 116</li><li><b>Deaths:</b> 193</li><li><b>Final Kills:</b> 4</li><li><b>Final Assists:</b> 0</li><li><b>Final Deaths:</b> 30</li><li><b>Wins:</b> 7</li><li><b>Losses:</b> 34</li><li><b>Kill/Death Ratio:</b> 0.31</li><li><b>FK/Death Ratio:</b> 0.13</li><li><b>Win/Loss Ratio:</b> 0.21</li><br /><li><b>Wither Damage:</b> 169</li><li><b>Defending Kills:</b> 14</li></ul><table class="table m-b-0"><thead><tr><th scope="col" data-tablesaw-priority="persist">Class</th><th scope="col">FKs</th><th scope="col">FAs</th><th scope="col">FDs</th><th scope="col">Wins</th><th scope="col">Kills</th><th scope="col">Deaths</th><th scope="col">FK/FD</th><th scope="col">K/D</th></tr></thead><tr><td>Dreadlord</td><td>1</td><td>3</td><td>0</td><td>1</td><td>9</td><td>24</td><td>-</td><td>0.38</td></tr><tr><td>Enderman</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>8</td><td>-</td><td>0.38</td></tr><tr><td>Herobrine</td><td>2</td><td>4</td><td>0</td><td>6</td><td>24</td><td>122</td><td>-</td><td>0.20</td></tr><tr><td>Werewolf</td><td>1</td><td>0</td><td>4</td><td>0</td><td>24</td><td>38</td><td>0.25</td><td>0.63</td></tr></table><hr><table class="table m-b-0"><thead><tr><th scope="col" data-tablesaw-priority="persist">Class</th><th scope="col">Skill</th><th scope="col">Passive 1</th><th scope="col">Passive 2</th><th scope="col">Gathering</th><th scope="col">Kit</th><th scope="col">Prestige</th><th scope="col">Ender Chest</th></tr></thead><tr><td>Dreadlord</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><td>Herobrine</td><td>5</td><td>2</td><td>2</td><td>2</td><td>5</td><td>0</td><td>0</td></tr><tr><td>Werewolf</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr></table><hr><table class="table m-b-0"><thead><tr><th scope="col" data-tablesaw-priority="persist">Mode</th><th scope="col">Kills</th><th scope="col">Deaths</th><th scope="col">K/D</th><th scope="col">Wins</th><th scope="col">Losses</th></tr></thead><tr><td>Normal</td><td>15</td><td>30</td><td>0.5</td><td>0</td><td>4</td></tr><tr><td>Faceoff Mode</td><td>9</td><td>11</td><td>0.82</td><td>6</td><td>1</td></tr><tr><td>Casual Brawl</td><td>0</td><td>0</td><td>-</td><td>0</td><td>0</td></tr></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_MurderMystery">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-9" aria-expanded="false" class="collapsed">
+Murder Mystery </a>
+</h4>
+</div>
+<div id="collapse-1-9" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled">
+<li><b>Coins:</b> 14,009</li>
+</ul>
+<br />
+<table class="table m-b-0">
+<thead>
+<tr>
+<th scope="col" data-tablesaw-priority="persist">Mode</th>
+<th scope="col">Wins</th><th scope="col">Kills</th><th scope="col">Bow Kills</th><th scope="col">Knife Kills</th><th scope="col">Thrown Knife Kills</th><th scope="col">Fastest Murderer Win</th><th scope="col">Fastest Detective Win</th> </tr>
+</thead>
+<tbody>
+<tr><th>Classic</th><td>23</td><td>14</td><td>2</td><td>12</td><td>0</td><td>0s</td><td>112s</td></tr><tr><th>Assassins</th><td>2</td><td>3</td><td>1</td><td>2</td><td>0</td><td>N/A</td><td>N/A</td></tr><tr><th>Double Up</th><td>2</td><td>3</td><td>0</td><td>3</td><td>0</td><td>N/A</td><td>N/A</td></tr><tr><th>Infection V2</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>N/A</td><td>N/A</td></tr><tr><th>Overall</th><td>27</td><td>20</td><td>3</td><td>17</td><td>0</td><td>0s</td><td>112s</td></tr><tr><td>Legacy Modes</td><td colspan="7"></td></tr><tr><th>Hardcore</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0s</td><td>0s</td></tr><tr><th>Showdown</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0s</td><td>0s</td></tr> </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_SkyWars">
+ <div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-10" aria-expanded="false" class="collapsed">
+SkyWars </a>
+</h4>
+</div>
+<div id="collapse-1-10" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Level:</b> 7</li><li><b>Prestige:</b> Iron ✙</li><br /><li><b>Coins:</b> 120,775</li><br /><li><b>Kills:</b> 1,012</li><li><b>Assists:</b> 103</li><li><b>Deaths:</b> 2,032</li><li><b>Kill/Death Ratio:</b> 0.50</li><li><b>Wins:</b> 134</li><li><b>Losses:</b> 2,021</li><li><b>Win/Loss Ratio:</b> 0.07</li><br /><li><b>Blocks Broken:</b> 3,801</li><li><b>Blocks Placed:</b> 22,474</li><br /><li><b>Soul Well Uses:</b> 145</li><li><b>Soul Well Legendaries:</b> 8</li><li><b>Soul Well Rares:</b> 27</li><li><b>Paid Souls:</b> 360</li><li><b>Souls Gathered:</b> 1,114</li><br /><li><b>Eggs Thrown:</b> 2,117</li><li><b>Enderpearls Thrown:</b> 339</li><br /><li><b>Arrows Shot:</b> 4,609</li><li><b>Arrows Hit:</b> 1,498</li><li><b>Arrow Hit/Miss Ratio:</b> 0.33</li></ul><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>K/D</th><th>Wins</th><th>Losses</th><th>W/L</th></tr></thead><tr><td>Ranked</td><td>168</td><td>138</td><td>1.22</td><td>62</td><td>138</td><td>0.45</td></tr><tr><td>Solo Normal</td><td>65</td><td>174</td><td>0.37</td><td>3</td><td>175</td><td>0.02</td></tr><tr><td>Solo Insane</td><td>652</td><td>1,407</td><td>0.46</td><td>50</td><td>1,407</td><td>0.04</td></tr><tr><td>Team Normal</td><td>13</td><td>42</td><td>0.31</td><td>2</td><td>40</td><td>0.05</td></tr><tr><td>Team Insane</td><td>110</td><td>241</td><td>0.46</td><td>17</td><td>231</td><td>0.07</td></tr><tr><td>Mega Normal</td><td>4</td><td>30</td><td>0.13</td><td>0</td><td>30</td><td>0</td></tr><tr><td>Mega Doubles</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_SmashHeroes">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-11" aria-expanded="false" class="collapsed">
+Smash Heroes </a>
+</h4>
+</div>
+<div id="collapse-1-11" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 5,288</li><li><b>Smash Level:</b> 5</li></ul><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>Wins</th><th>Losses</th><th>K/D</th><th>W/L</th></tr></thead><tr><td>1v1v1v1</td><td>6</td><td>21</td><td>0</td><td>7</td><td>0.29</td><td>0</td></tr><tr><td>2v2</td><td>17</td><td>11</td><td>3</td><td>3</td><td>1.55</td><td>1</td></tr></table><table class="table"><thead><tr><th>Hero</th><th>Level</th><th>Prestige</th><th>Kills</th><th>Wins</th><th>Deaths</th><th>Losses</th><th>K/D</th><th>W/L</th></tr></thead><tr><td>Bulk</td><td>5</td><td>0</td><td>23</td><td>3</td><td>32</td><td>10</td><td>0.72</td><td>0.3</td></tr></table> </div>
+ </div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_SpeedUHC">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-12" aria-expanded="false" class="collapsed">
+Speed UHC </a>
+</h4>
+</div>
+<div id="collapse-1-12" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 11,880</li><br /><li><b>Kills:</b> 7</li><li><b>Deaths:</b> 16</li><li><b>Wins:</b> 0</li><li><b>Losses:</b> 16</li><li><b>Kill/Death Ratio:</b> 0.44</li><li><b>Win/Loss Ratio:</b> 0</li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_TNTGames">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-13" aria-expanded="false" class="collapsed">
+TNT Games </a>
+</h4>
+</div>
+<div id="collapse-1-13" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 36,087</li><br /><li><b>TNT Run Wins:</b> 8</li><li><b>TNT Run Record:</b> 05:09</li><br /><li><b>PVP Run Wins:</b> 0</li><li><b>PVP Run Kills:</b> 2</li><li><b>PVP Run Record:</b> 01:15</li><br /><li><b>TNTag Wins:</b> 0</li><br /><li><b>Bowspleef Wins:</b> 0</li><li><b>Bowspleef Losses:</b> 5</li><br /><li><b>Wizards Kills:</b> 11</li><li><b>Wizards Deaths:</b> 7</li><li><b>Wizards Wins:</b> 2</li><li><b>Kill/Death Ratio Wizards:</b> 1.57</li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_UHC">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-14" aria-expanded="false" class="collapsed">
+UHC Champions </a>
+</h4>
+</div>
+<div id="collapse-1-14" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 6,008</li><li><b>Score:</b> 1</li></ul><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>Wins</th><th>Kill/Death Ratio</th><th>Heads Eaten</th></tr></thead><tbody><tr><td>Solo</td><td>1</td><td>13</td><td>0</td><td>0.08</td><td>1</td></tr><tr><td>Team</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Red vs Blue</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>No Diamonds</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>Vanilla Doubles</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>Brawl</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>Solo Brawl</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>Duo Brawl</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td></tr><tr><td>Total</td><td>1</td><td>22</td><td>0</td><td>0.05</td><td>1</td></tr></tbody></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_Warlords">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-1-15" aria-expanded="false" class="collapsed">
+Warlords </a>
+</h4>
+</div>
+<div id="collapse-1-15" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<div class="row"><div class="col-lg-8"><ul class="list-unstyled"><li><b>Coins:</b> 7,324</li><br /><li><b>Kills:</b> 40</li><li><b>Assists:</b> 111</li><li><b>Assist/Kill Ratio:</b> 2.78</li><li><b>Deaths:</b> 59</li><li><b>Kill/Death Ratio:</b> 0.68</li><li><b>Wins:</b> 6</li><li><b>Wins CTF:</b> 0</li><li><b>Wins Domination:</b> 1</li><li><b>Wins Team Deathmatch:</b> 5</li><li><b>Losses:</b> 6</li><br /><li><b>Total Repaired:</b> 33</li><li><b>Flags Captured:</b> 1</li><li><b>Flags Returned:</b> 0</li></ul><ul class="list-unstyled"><li><b>Weapons:</b></li></ul></div><div class="col-lg-4"><div id="weapon-chart"><svg style="height:300px;"></svg></div></div></div><table class="table"><thead><tr><th>Class</th><th>Level</th><th>Wins</th><th>Damage</th><th>Prevent/Absorb</th><th>Healing</th><th>Total</th></tr></thead><tr><td>Mage</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Warrior</td><td>0</td><td>1</td><td>25,560</td><td>3,379</td><td>2,384</td><td>31,323</td></tr><tr><td>Paladin</td><td>5</td><td>5</td><td>336,755</td><td>39,216</td><td>90,659</td><td>466,630</td></tr><tr><td>Shaman</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table> </div>
+</div>
+</div>
+</div>
+<div class="panel-group stat-accordion">
+<div class="panel panel-default stat_panel" id="stat_panel_Arena">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-1" aria-expanded="false" class="collapsed">
+Arena Brawl </a>
+</h4>
+</div>
+<div id="collapse-2-1" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled">
+<li><b>Coins:</b> 17,670</li> </ul>
+<table class="table">
+<thead>
+<tr>
+<th>Type</th>
+<th>Kills</th>
+<th>Deaths</th>
+<th>Wins</th>
+<th>Losses</th>
+<th>K/D</th>
+<th>W/L</th>
+</tr>
+</thead>
+<tr><td>1v1</td><td>1</td><td>3</td><td>1</td><td>3</td><td>0.33</td><td>0.33</td></tr><tr><td>2v2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>4v4</td><td>3</td><td>1</td><td>6</td><td>0</td><td>3</td><td>6</td></tr> </table>
+</div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_Paintball">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-2" aria-expanded="false" class="collapsed">
+Paintball </a>
+</h4>
+</div>
+<div id="collapse-2-2" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 5,637</li><li><b>Force Field Time:</b> 0:00:00 <i>(hh:mm:ss)</i></li><br /><li><b>Kills:</b> 35</li><li><b>Deaths:</b> 89</li><li><b>Killstreaks:</b> 2</li><li><b>Shots Fired:</b> 2,085</li><li><b>Wins:</b> 3</li><li><b>Kill/Death Ratio:</b> 0.39</li><li><b>Shots/Kill Ratio:</b> 59.57</li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_Quake">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-3" aria-expanded="false" class="collapsed">
+Quake </a>
+</h4>
+</div>
+<div id="collapse-2-3" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 5,339</li><br /><li><b>Highest Killstreak:</b> 2</li><br /><li><b>Dash Power:</b> 1</li><li><b>Dash Cooldown:</b> 1</li><br /><li><b>Godlikes:</b> 0</li><br /><table class="table"><thead><tr><th>Mode</th><th>Kills</th><th>Deaths</th><th>Wins</th><th>K/D</th><th>Headshots</th><th>Killstreaks</th><th>H/K</th><th>Kills/Shot</th></tr></thead><tr><td>Solo</td><td>26</td><td>60</td><td>0</td><td>0.43</td><td>1</td><td>0</td><td>0.08</td><td>0.29</td></tr><tr><td>Team</td><td>0</td><td>0</td><td>0</td><td>-</td><td>0</td><td>0</td><td>-</td><td>-</td></tr></table> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_TKR">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-4" aria-expanded="false" class="collapsed">
+Turbo Kart Racers </a>
+</h4>
+</div>
+<div id="collapse-2-4" class="panel-collapse collapse" aria-expanded="false">
+ <div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 5,361</li><li><b>Grand Prix Tokens:</b> 0</li><br /><li><b>Current Kart:</b> <li>- Default Basic Engine</li><li>- Default Basic Turbocharger</li><li>- Experimental Awesome Frame</li><br /><li><b>Gold Trophies:</b> 0</li><li><b>Silver Trophies:</b> 0</li><li><b>Bronze Trophies:</b> 0</li><li><b>Total Laps:</b> 11</li><br /><li><b>Coins Picked up:</b> 155</li><li><b>Powerups Picked up:</b> 60</li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_VampireZ">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-5" aria-expanded="false" class="collapsed">
+VampireZ </a>
+</h4>
+</div>
+<div id="collapse-2-5" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 5,662</li><br /><li><b>Human Kills:</b> 9</li><li><b>Human Deaths:</b> 27</li><li><b>Human Wins:</b> 0</li><li><b>Zombie Kills:</b> 114</li><li><b>Vampire Kills:</b> 16</li><li><b>Vampire Deaths:</b> 25</li><li><b>Kill/Death Ratio Vampire:</b> 0.36</li><li><b>Kill/Death Ratio Human:</b> 0.59</li></ul> </div>
+</div>
+</div>
+<div class="panel panel-default stat_panel" id="stat_panel_Walls">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-2-6" aria-expanded="false" class="collapsed">
+Walls </a>
+</h4>
+</div>
+<div id="collapse-2-6" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 6,515</li><br /><li><b>Kills:</b> 0</li><li><b>Deaths:</b> 0</li><li><b>Wins:</b> 0</li><li><b>Losses:</b> 0</li><li><b>Kill/Death Ratio:</b> -</li><li><b>Win/Loss Ratio:</b> -</li></ul> </div>
+</div>
+</div>
+</div>
+<div class="panel-group stat-accordion">
+<div class="panel panel-default stat_panel" id="stat_panel_Pets">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-3-1" aria-expanded="false" class="collapsed">
+Pet Stats </a>
+</h4>
+</div>
+<div id="collapse-3-1" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<div class="row">
+<div class="col-lg-4">
+<h5>Mooshroom (Baby)</h5>
+<p class="text-muted m-b-0 m-t-8 font-13">
+Progress towards level <b>15</b>. </p>
+<div class="progress progress-lg m-b-5">
+<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="63.75" aria-valuemin="0" aria-valuemax="100" style="width: 63.75%;">
+63.75% - 510/800 </div>
+</div>
+</div>
+<div class="col-lg-4">
+<h5>Pig</h5>
+<p class="text-muted m-b-0 m-t-8 font-13">
+Progress towards level <b>11</b>. </p>
+<div class="progress progress-lg m-b-5">
+<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100" style="width: 26%;">
+26% - 130/500 </div>
+</div>
+</div>
+<div class="col-lg-4">
+<h5>Red Little Helper - Duck</h5>
+<p class="text-muted m-b-0 m-t-8 font-13">
+Progress towards level <b>5</b>. </p>
+<div class="progress progress-lg m-b-5">
+<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100" style="width: 64%;">
+64% - 160/250 </div>
+</div>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-lg-4">
+<h5>Totem - Jerry</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-group stat-accordion">
+<div class="panel panel-default stat_panel" id="stat_panel_SkyClash">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent=".stat-accordion" href="#collapse-4-1" aria-expanded="false" class="collapsed">
+SkyClash </a>
+</h4>
+</div>
+<div id="collapse-4-1" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<ul class="list-unstyled"><li><b>Coins:</b> 24,959</li><li><b>Wins:</b> 43</li><li><b>Kills:</b> 485</li><li><b>Assists:</b> 43</li><li><b>Deaths:</b> 323</li><li><b>K/D:</b> 1.50</li></ul><hr><h4 class="m-t-0 header-title">Classes</h4><table class="table"><thead><tr><th>Kit</th><th>Card 1</th><th>Card 2</th><th>Card 3</th></tr></thead><tr><td>Assassin V</td><td>Pearl Absorption III</td><td>Sharpened Sword II</td><td>Winged Boots III</td></tr><tr><td>Guardian -</td><td>Resistant III</td><td>Sharpened Sword II</td><td>Rampage II</td></tr><tr><td>Archer -</td><td>Marksman III</td><td>Honed Bow II</td><td>Triple Shot II</td></tr><tr><td>Frost Knight -</td><td>Creeper III</td><td>Snow Golem II</td><td>Iron Golem I</td></tr><tr><td>Berserker -</td><td>Resistant III</td><td>Hearty Start III</td><td>Rampage II</td></tr></table><br /><h4 class="m-t-0 header-title">Kit Stats</h4><table class="table"><thead><tr><th>Kit</th><th>Wins</th><th>Kills</th><th>Assists</th><th>Deaths</th><th>K/D</th></tr></thead><tr><td>Archer -</td><td>0</td><td>5</td><td>0</td><td>1</td><td>5</td></tr><tr><td>Guardian -</td><td>0</td><td>6</td><td>0</td><td>22</td><td>0.27</td></tr><tr><td>Swordsman -</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0.5</td></tr><tr><td>Assassin V</td><td>43</td><td>473</td><td>43</td><td>297</td><td>1.59</td></tr><tr><td>Berserker -</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr></table> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<footer class="footer">
+<span>2019 © Plancke</span>
+<span>- Powered by <a href="https://github.com/Plancke/hypixel-php" target="_blank">hypixel-php</a></span>
+</footer>
+</div>
+
+
+
+<script>
+                var resizefunc = [];
+            </script>
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/detect.js"></script>
+<script src="/assets/js/fastclick.js"></script>
+<script src="/assets/js/jquery.slimscroll.js"></script>
+<script src="/assets/js/jquery.blockUI.js"></script>
+<script src="/assets/js/waves.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+<script src="/assets/js/jquery.nicescroll.js"></script>
+<script src="/assets/js/jquery.scrollTo.min.js"></script>
+<script src="/assets/plugins/switchery/switchery.min.js"></script>
+
+<script src="/assets/js/jquery.core.js"></script>
+<script src="/assets/js/jquery.app.js"></script>
+<script src="/assets/js/_main.js"></script>
+
+<script src="/assets/plugins/tablesaw/dist/tablesaw.js"></script>
+<script src="/assets/plugins/tablesaw/dist/tablesaw-init.js"></script>
+<script src="/assets/plugins/bootstrap-sweetalert/sweetalert2.min.js"></script>
+<script>
+                    // global uuid
+                    var uuid = '2dac9ce763f840f4b083407faa20e1bd';
+                </script>
+<script type="text/javascript">
+                    $(document).ready(function () {
+                        $("#walls3-id").parent().closest(".collapse").on('shown.bs.collapse', function () {
+                            $(this).find(".table").each(function (index, currentElement) {
+                                $(currentElement).attr("data-tablesaw-mode", "swipe").table();
+                            });
+                        });
+                    });
+                </script>
+
+<script src="/assets/plugins/d3/d3.min.js"></script>
+<script src="/assets/plugins/nvd3/build/nv.d3.min.js"></script>
+<script type="text/javascript">
+                    $(document).ready(function () {
+                        var chart;
+
+                        nv.addGraph(function () {
+                            chart = nv.models.pieChart()
+                                .x(function (d) {
+                                    return d.label;
+                                })
+                                .y(function (d) {
+                                    return Math.floor(d.value);
+                                })
+                                .showLabels(true)     //Display pie labels
+                                .labelThreshold(.05)  //Configure the minimum slice size for labels to show up
+                                .labelType("percent") //Configure what type of data to show in the label. Can be "key", "value" or "percent"
+                                .donut(true)          //Turn on Donut mode. Makes pie chart look tasty!
+                                .donutRatio(0.35)     //Configure how big you want the donut hole size to be.
+                                .valueFormat(d3.format(".0f"))
+                            ;
+
+                            d3.select("#weapon-chart svg")
+                                .datum([
+                                    {
+                                        "label": "Legendary",
+                                        "value": 0,
+                                        "color": "#FFAA00"
+                                    },
+                                    {
+                                        "label": "Epic",
+                                        "value": 0,
+                                        'color': '#AA00AA'
+                                    },
+                                    {
+                                        "label": "Rare",
+                                        "value": 10,
+                                        'color': '#5555FF'
+                                    },
+                                    {
+                                        "label": "Common",
+                                        "value": 23,
+                                        'color': '#3CE63C'
+                                    }
+
+                                ])
+                                .transition().duration(1500)
+                                .call(chart);
+
+                            return chart;
+                        });
+
+                        $("#weapon-chart").parent().closest(".collapse").on('shown.bs.collapse', function () {
+                            d3.select("#weapon-chart svg").transition().duration(1500).call(chart);
+                        });
+                    });
+                </script>
+<script>
+                    $(document).ready(function () {
+                        let hash = window.location.hash;
+                        if (hash.length > 1) {
+                            hash = hash.substr(1);
+                        }
+                        let panel = $("#stat_panel_" + hash);
+                        if (panel) {
+                            panel.find(".panel-title").find("a").removeClass("collapsed");
+
+                            let hiddenPanel = panel.find(".panel-body").parent();
+                            hiddenPanel.attr("aria-expanded", true);
+                            hiddenPanel.addClass("in");
+                        }
+
+                        $(".stat_panel").click(function () {
+                            let dis = $(this)[0];
+                            console.log(dis);
+                            window.location.hash = dis.id.substr(11);
+                        });
+                    });
+                </script>
+<script>
+                $(document).ready(function () {
+                    $('#collapse-name-history')
+                        .on('show.bs.collapse', function () {
+                            $(this).parent().find(".glyphicon-plus")
+                                .removeClass("glyphicon glyphicon-plus")
+                                .addClass("glyphicon glyphicon-minus");
+                        })
+                        .on('hidden.bs.collapse', function () {
+                            $(this).parent().find(".glyphicon-minus")
+                                .removeClass("glyphicon glyphicon-minus")
+                                .addClass("glyphicon glyphicon-plus");
+                        });
+                });
+            </script>
+<script>
+                                                    $(document).ready(function () {
+                                                        $("#social_DISCORD").click(function () {
+                                                            swal("19st's Discord", "Lemon#0395");
+                                                        })
+                                                    })
+                                                </script>
+</div>
+</body>
+</html>
